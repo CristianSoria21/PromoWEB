@@ -1,0 +1,168 @@
+/* 12/11/2021 */
+
+:root {
+  /*Seudoselector*/
+  --blanco: #ffffff;
+  --vino: #881443;
+  --rosaPalo: #DD969C;
+  --rosaSuave: #EECACD;
+  --grisFondo: #E5E5E5;
+  --grisOscuro: #808080;
+  --negro: #000000;
+    
+  /* Fuentes */
+--FuentePrincipal: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2{
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--FuentePrincipal);
+  font-weight: normal;
+  background-color: #e5e5e5;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Toda la seccion del formulario*/
+.formulario{
+background-color: var(--rosaSuave);
+width: min(80rem, 100%); /*Si el segundo valor es mas alto que el priemero cambia el tamano*/
+margin: 0 auto;
+padding: 2rem 10rem;
+border-radius: 1rem;
+}
+
+.formulario legend{
+font-size: 1.8rem;
+text-transform: uppercase;
+font-weight: bold;
+color: var(--primaraio);
+text-align: center;
+margin: 2rem auto;
+}
+
+p, .hiper a{
+color: var(--negro);
+text-align: center;
+align-items: center;
+text-decoration: none;
+} 
+
+.hiper a{
+display: flex;
+justify-content: center;
+}
+
+.campo{
+margin-bottom: 1.5rem;
+}
+
+.campo label{
+color: var(--negro);
+margin-bottom: .5rem;
+display: block;
+}
+
+/* .campo input{
+background-color: red;
+}
+
+.campo textarea{
+background-color: red;
+} */
+
+.text-input{
+width: 100%;
+padding: 1.5rem;
+border-radius: .5rem;
+border: none;
+}
+
+.enviar button, .enviar a{
+text-decoration: none;
+margin-top: 20px;
+color: var(--blanco);
+padding: 10px 40px;
+border: none;
+border-radius: 13px;
+background-color: var(--vino);
+}
+
+.warnings{
+width: 200px;
+text-align: justify;
+margin: auto;
+color: var(--vino);
+padding-top: 20px;
+}
+
+@media (min-width: 480px) {
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+}
+@media (max-width: 480px){
+ .enviar button{
+   width: 100%;
+ }
+}
+/*   Parte del footer */
+
+.footer {
+display: flex;
+padding: 10px 100px;
+width: 100%;
+background-color: var(--vino);
+list-style: none;
+text-align: center;
+}
+
+.lista {
+display: flex;
+flex-direction: column;
+color: var(--blanco);
+padding: 0 auto;
+width: 100%;
+flex: 0 calc(33.3% - 1rem);
+}
+
+.lista a {
+text-decoration: none;
+color: var(--blanco);
+}
+
+/* Footer dinamico */
+@media (max-width: 768px){
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media (max-width: 280px){
+.footer{
+  font-size: 10px;
+}
+}

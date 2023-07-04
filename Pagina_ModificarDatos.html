@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Modificar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estiloRegistro.css'>
+
+   <!--  Tipografias -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div>
+        
+        <form method="POST" id="form" class="formulario">
+
+        <!--    Formato de Registro -->
+
+            <div class="contenedor-campos">
+                    <head>
+                        <h2>Modificar Cuenta</h2>
+                    </head>
+
+                    <!-- Logotipo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="img/Logotipo Pagina Color.png" alt=""></a>
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtNombre">Nombre:</label>
+                        <input type="text" class="text-input" name="txtNombre" id="txtNombre" placeholder="Ejemplo:Jose David Perez">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtApodo">Apodo</label>
+                        <input type="text" class="text-input" name="txtApodo" id="txtApodo" placeholder="Ejemplo:Jose12">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtCorreo">Correo</label>
+                        <input type="text" class="text-input" name="txtCorreo" id="txtCorreo" placeholder="Ejemplo:abcd@gmail.com">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtRepCorreo">Repetir Correo</label>
+                        <input type="text" class="text-input" name="txtRepCorreo" id="txtRepCorreo" placeholder="Ejemplo:abcd@gmail.com">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtContraseña">Contraseña</label>
+                        <input type="password" class="text-input" name="txtContraseña" id="txtContraseña" placeholder="************">
+                    </div> 
+
+                    <div class="campo">
+                        <label for="txtRepContraseña">Repetir Contraseña</label>
+                        <input type="password" class="text-input" name="txtRepContraseña" id="txtRepContraseña" placeholder="************">
+                    </div>
+
+                    <div class="campo">
+                        <label for="txtTelefono">Telefono o Celular</label>
+                        <input type="tel" class="text-input" name="txtTelefono" id="txtTelefono" placeholder="Ejemplo: +52 353-125--3658">
+                    </div>
+
+                    <!-- Boton de Acepar -->
+                    <div class="enviar">
+                       <!--  <input type="button" value="Aceptar" type="hola" id="hola">  -->
+                        <button  type="submit" id="submit">Aceptar</button>
+                    </div>
+
+                    <p>O</p>
+                    <div class="hiper">
+                        <a href="InicioSesion.html">Inicio de Sesion</a>
+                    </div>
+
+                    <p class="warnings" id="warnings"></p>
+                </div>
+        
+        </form>
+
+    </div>
+
+    <script src="js/ModificarDatos.js"></script>
+     <!-- Footer -->
+     <div style="height: 80px; overflow: hidden;" class="ola">
+        <svg class="hijo" viewBox="0 0 500 80" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #881443;">
+            </path>
+        </svg>
+    </div>
+
+    <!-- Texto del Footer -->
+    <div class="footer">
+
+        <div class="lista">
+            <a href="">Acerca de</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        </div>
+
+        <div class="lista">
+            <a href="">Acerca de</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        </div>
+        <div class="lista">
+            <!-- Informacion de Contacto -->
+            <div class="lista"></div>
+            <label for="Contacto">Contactanos En:</label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg> +52 353-125-6223
+            </label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                </svg> 353-125-6223
+            </label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-latitude" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="4.6" y1="7" x2="19.4" y2="7" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="4.6" y1="17" x2="19.4" y2="17" />
+                </svg> web_page12
+            </label>
+        </div>
+
+    </div>
+</body>
+</html>

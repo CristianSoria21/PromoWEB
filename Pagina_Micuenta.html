@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mi Cuenta</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estiloMicuenta.css'>
+
+   <!--  Tipografias -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;7 00&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Menu -->
+    <header>
+        <div class="navbar">
+
+            <!-- Logotipo Boton -->
+            <div class="logo">
+                <a href="index.html"><img src="img/Logotipo Pagina Color.png" alt=""></a>
+            </div>
+
+            <div class="division">
+                <!-- Barra de Navegacion -->
+                <nav class="navegacion-principal contenedor">
+                    <input type="checkbox" id="bt-menu" />
+                    <label for="bt-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </label>
+                <div class="lista">
+                    <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="PaginaMN_Part1.html">Mis Negocios</a></li>
+                            <li><a href="Favoritos.html">Favoritos</a></li>
+                            <li><a href="#">Mi cuenta</a></li>
+                            <li><a href="Pagina_Ayuda.html">Ayuda</a></li>
+                    </ul>
+                    </div>
+                </nav>
+                <div class="buscador">
+                    <input type="text" class="text-input" name="txtBuscador" id="txtBuscador"
+                        placeholder="Buscar negocio, empresas y mas..." >
+                    <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="3" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="10" cy="10" r="7" />
+                                <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                        </button>
+                </div>
+
+            </div>
+            <!-- Icono para el inicio de sesión -->
+
+            <div class="inisesion">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24" style="fill: rgba(136, 20, 67, 1);">
+                        <path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 
+                        3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 
+                        0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z">
+                        </path></svg>
+                </a>
+                <a href="InicioSesion.html" id="txtInicio">Inicio de Sesion</a>
+                <a href="Registro.html" id="txtRegist">Registrate</a>
+            </div>
+        </div>
+    </header>
+
+    <header><h1>Mi cuenta<h1></header>
+   
+   <!-- Contendido pagina -->
+   
+   <div class="datos-cuenta">
+        <div class="cont">
+            <h2>Datos de mi Cuenta</h2>
+            <div class="dato">
+                <p>Usuario</p>
+                <p id="txtApodo">Jose12</p>
+                <a href="Pagina_ModificarDatos.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m9 19 8-7-8-7z"></path></svg></a>
+            </div>
+            <hr>
+            <div class="dato">
+                <p>E-mail</p>
+                <p id="txtCorreo">abcd@gmail.com</p>
+                <a href="Pagina_ModificarDatos.htm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m9 19 8-7-8-7z"></path></svg></a>
+            </div>
+            <hr>
+            <div class="dato">
+                <p>Contraseña</p>
+                <p>**************</p>
+                <a href="Pagina_ModificarDatos.htm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m9 19 8-7-8-7z"></path></svg></a>
+            </div>
+        </div>
+
+        <div class="cont2">
+            <h2>Datos Personales</h2>
+            <div class="dato">
+                <p>Nombre</p>
+                <p id="txtNomnbre">Jose David Perez</p>
+                <a href="Pagina_ModificarDatos.htm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m9 19 8-7-8-7z"></path></svg></a>
+            </div>
+            <hr>
+            <div class="dato">
+                <p>Nombre</p>
+                <p id="txtTelefono"> +52 353-125--3658</p>
+                <a href="Pagina_ModificarDatos.htm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m9 19 8-7-8-7z"></path></svg></a>
+            </div>
+        </div>
+        <script src="js/general2.js"></script>
+   </div>
+   
+    <!-- Footer -->
+    <div style="height: 80px; overflow: hidden;" class="ola">
+        <svg class="hijo" viewBox="0 0 500 80" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #881443;">
+            </path>
+        </svg>
+    </div>
+
+    <!-- Texto del Footer -->
+    <div class="footer">
+
+        <div class="lista2">
+            <a href="">Acerca de</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        </div>
+
+        <div class="lista2">
+            <a href="">Acerca de</a>
+            <a href="">Ayuda</a>
+            <a href="">Contacto</a>
+        </div>
+        <div class="lista2">
+            <!-- Informacion de Contacto -->
+            <div class="lista2"></div>
+            <label for="Contacto">Contactanos En:</label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg> +52 353-125-6223
+            </label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                </svg> 353-125-6223
+            </label>
+            <label for="Contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-latitude" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="4.6" y1="7" x2="19.4" y2="7" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="4.6" y1="17" x2="19.4" y2="17" />
+                </svg> web_page12
+            </label>
+        </div>
+    </div>
+</body>
+</html>
